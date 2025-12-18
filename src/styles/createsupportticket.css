@@ -1,0 +1,83 @@
+.create-support-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0a0f25, #001a3a);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.create-support-card {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  padding: 30px;
+  width: 100%;
+  max-width: 550px;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(0, 180, 255, 0.3);
+  text-align: center;
+}
+
+.create-support-card h2 {
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+.create-support-subtitle {
+  color: #9ecaff;
+  margin-bottom: 20px;
+}
+
+.create-support-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.create-support-form input,
+.create-support-form select,
+.create-support-form textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background: rgba(0, 180, 255, 0.3);
+  color: white;
+  font-size: 1rem;
+}
+
+.create-support-form textarea {
+  height: 120px;
+  resize: none;
+}
+
+.create-support-btn {
+  background: #1e8bff;
+  color: #fff;
+  font-size: 1.1rem;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.create-support-btn:hover {
+  background: #4eb4ff;
+}
+
+/* Button on main page */
+.contact-btn {
+  background: #1e8bff;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-btn:hover {
+  background: #4eb4ff;
+}

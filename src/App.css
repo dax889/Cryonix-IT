@@ -1,0 +1,17 @@
+.App {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background: linear-gradient(180deg, #000000 0%, #071032 100%);
+    /* black to deep blue */
+    color: #f5f7fb;
+    min-height: 100vh;
+}
+
+main {
+    /* padding-top: 80px; */
+    background-color: transparent;
+    /* leave room for fixed navbar */
+}
+
+section {
+    padding: 80px 20px;
+}
